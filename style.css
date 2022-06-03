@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: "Lucida Grande";
+    padding: 0;
+    box-sizing: border-box;
+    background: #F3F3F1;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+  	background-attachment: fixed;
+ 	background-position: center;
+}
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav ul li{
+	list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+}
+nav .logo img{
+    width: 150px;
+    margin-right: 10px;
+    
+}
+.btn{
+    background-color: #5D921A;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+.content{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    bottom: 8%;
+    padding: 10px 15px;
+}
+h1{
+    color: black;
+    margin: 15px 0px 10px;
+    font-size: 100px;
+    font-family: Brush Script MT;
+}
+h2{
+    color: black;
+    font-size: 25px;
+    font-family: "Comic Sans MS", cursive;
+}
+p{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+     padding-bottom: 5%;
+}
